@@ -1,0 +1,115 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: white;
+
+
+
+}
+{
+
+	box-sizing: border-box;
+} 
+
+ h1, h2, h3, h4, h5, h6{
+ 	margin: 0;
+ } 
+.container{
+	width: 100%;
+	max-height: 1200px;
+	margin: 0 auto;
+
+
+
+}
+
+} 
+.intro{
+	width: 100;
+	height:0vh;
+
+}
+body{
+	background: url(heder-bg.png); 
+	-webkit-background-size: cover; 
+	background-size: cover;
+}
+
+
+
+.heder {
+	width: 100%;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.heder__inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.logo{
+	font-size: 45px;
+	font-weight: 150%;
+	color: white;
+	float: right;
+    margin-left: 300px;
+}
+
+.nav{
+	font-size: 33px;
+	text-transform: uppercase;
+
+
+}
+.nav__link {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	color: white;
+	text-decoration: none;
+
+}
+.nav__link:hover {
+	color: gold
+
+}
+
+.guitar {
+	width: -24px;
+	position: absolute;
+	top: 0px;
+
+}
+
+
+.btn{
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 15px;
+
+	border: 3px solid white;
+
+	color: white;
+	text-transform: uppercase;
+	position: absolute;
+	top: 450px;
+	font-size: 39px;
+	text-decoration: none;
+	 background: #D60E56;
+	 left: 100px;
+}
+
+
+
+.bone{
+	position: absolute;
+	top: 209px;
+    left:  450px;
+   
